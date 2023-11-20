@@ -1,1 +1,144 @@
-/* CSS yet to be implemented */
+.text-center{
+    text-align: center;
+}
+
+.show-border{
+    border: 1px solid black;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.main-font-change{
+    font-family: cursive;
+    color: rgb(188, 188, 28);
+}
+
+.font-change{
+    font-family: cursive;
+}
+
+.slides{
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.slides > div{
+    display: flex;
+    flex-shrink: 0;
+    width: 100%;
+    height: 300px;
+    scroll-snap-align: start;
+    scroll-behavior: smooth;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+.img-size-change{
+    width: 1000px;
+    height: auto;
+}
+
+.show-border-stronger{
+    border: 5px solid black;
+    box-shadow: 0 10px 4px rgba(0,0,0,0.2);
+
+}
+
+.img-resizer{
+    width: 100px;
+    height: auto;
+}
+
+.image-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .image-wrapper{
+    flex: 1;
+    text-align: center;
+    margin: 60px;
+  }
+  
+  .image-wrapper img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .image-link{
+    margin-top: 10px;
+  }
+
+  a:link{
+    background-color: rgba(0,255,255,0.5);
+    text-decoration: none;
+    color: black;
+  }
+
+  a:visited{
+    background-color: rgba(0,255,255,0.5);
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover{
+    background-color: rgba(8, 218, 218, 0.5);
+    text-decoration: none;
+    color: black;
+  }
+
+  .footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 255, 255, 0.5);
+    border: 1px dashed black;
+  }
+  
+  .footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+  
+  .footer-item{
+    margin: 0 10px;
+  }
+  
+  .footer-item p{
+    margin: 20px;
+  }
+
+  .form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 1px dashed black;
+    background-color: rgba(0, 205, 205, 0.3)
+  }
+  
+  .centered-form{
+    background-color: rgba(0, 255, 255, 0.5);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .centered-form label,
+  .centered-form input{
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .centered-form input[type="submit"] {
+    background-color: #00ffff;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
